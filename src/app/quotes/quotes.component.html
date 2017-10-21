@@ -1,0 +1,11 @@
+<div class="input-group pl-4 pr-4">
+  <span class="input-group-addon bg-success text-white">Suche Zitat:</span>
+  <input [(ngModel)]='listFilter' type="text" class="form-control" placeholder='z. B. "2017", "Mathis", "Du"' aria-label="Amount (to the nearest dollar)">
+</div>
+
+<ul class="list-group m-4 lp-5 rp-5 bp-5">
+  <li class="list-group-item list-group-item-success"><b>Die Zitate</b></li>
+  <li *ngFor="let quote of filteredQuotes" class="list-group-item">
+    {{ quote }}
+  </li>
+</ul>
