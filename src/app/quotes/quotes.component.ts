@@ -24,7 +24,8 @@ export class QuotesComponent implements OnInit {
     'Jonas, Dienstag Nachmittag 2017 | "Spongebob ist wie das echte Leben."',
     'Benji 2017 | „Immer wenn ich mit Bällen spiele landen sie in meinem Gesicht"',
     'Laurent 2017 | "Du wirst nie Aufkleber, Jonas!"',
-    'Benji 2017 | "Ich setze morgen einen Cookie in deinem Browser"'
+    'Benji 2017 | "Ich setze morgen einen Cookie in deinem Browser"',
+    'Jonas Dienstag 2017 | Benji: "Wieso machst du so viele Spaces?" Antwort: "Ja dann hat man schon welche!" '
   ]
 
   get listFilter(): string {
